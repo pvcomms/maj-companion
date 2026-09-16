@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.venv/
+.DS_Store
+.env
+.env.*
+*.tsbuildinfo
+coverage/
+
+# never commit card photos or parsed card data
+*.png
+*.jpg
+*.jpeg
+*.heic
+*.pdf
+cards/

@@ -1,0 +1,19 @@
+{
+  "name": "maj-companion",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "American mah jongg table companion — BYOC card parser, hand matcher, Charleston advisor",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@anthropic-ai/sdk": "^0.110.0",
+    "@types/node": "^26.1.0",
+    "sharp": "^0.35.3",
+    "tsx": "^4.23.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
